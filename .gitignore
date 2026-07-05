@@ -12,7 +12,13 @@ __pycache__/
 .env.local
 .env.*.local
 apps/desktop/.env
+apps/mobile/.env
 services/api/.env
+
+# APK / build artifacts
+*.apk
+*.aab
+Dear-Diary.apk
 
 # Duplicate nested docs from copy
 docs/docs/
@@ -21,6 +27,11 @@ docs/docs/
 dist/
 build/
 *.egg-info/
+apps/mobile/android/app/build/
+apps/mobile/android/.gradle/
+apps/mobile/android/build/
+apps/mobile/android/local.properties
+apps/mobile/.expo/
 
 # Cognee local data
 data/
