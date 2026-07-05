@@ -1,0 +1,15 @@
+---
+description: Dear Diary hackathon rules for Cursor agents
+globs:
+  - "**/*"
+---
+
+# Dear Diary — WeMakeDevs Cognee Hackathon
+
+- **Memory:** Cognee local (Kuzu) — use remember/recall/improve/forget, NOT plain RAG
+- **Sidecar:** FastAPI on port 8787
+- **UI:** React + Framer Motion — home = capture orb, NOT dashboard
+- **Demo hero:** lens switch + abandon pattern + Arjun witness
+- **Types:** packages/shared/src/types.ts is source of truth
+- **Banned:** Streamlit, therapy framing, free-chat RAG home screen
+- **Judging:** Best Use of Cognee = deep memory lifecycle + graph-vector hybrid
